@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="${product.image}" alt="${product.name}">
                         <div class="product-overlay">
                             <h4>${product.name}</h4>
-                            <p>${categoryDisplayName}</p>
+                            
                         </div>
                     </div>
                 `;
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Actualizar modal con la información del producto
                     previewImage.src = productImage;
                     previewTitle.textContent = productName;
-                    previewCategory.textContent = productCategory.charAt(0).toUpperCase() + productCategory.slice(1);
+                    
                     
                     // Mostrar modal
                     previewModal.style.display = 'block';
